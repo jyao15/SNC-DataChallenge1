@@ -1,0 +1,6 @@
+Seed set:
+ [261, 461, 479, 256, 262, 5, 480, 1, 494, 462, 463, 260, 481, 2, 492, 464, 9, 10, 257, 4, 225, 258, 3, 499, 487]
+Average number of people influenced (including seeds):
+45.894
+Average minimal of people influenced (including seeds):
+0.0
