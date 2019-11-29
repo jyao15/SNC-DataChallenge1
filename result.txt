@@ -1,0 +1,10 @@
+slow task 1:
+Greedy selected seed: 19
+Greedy selected seed: 264
+Greedy selected seed: 13
+Greedy selected seed: 319
+Greedy selected seed: 301
+Greedy selected seed: 308
+Greedy selected seed: 82
+Greedy selected seed: 314
+Greedy selected seed: 265
