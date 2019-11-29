@@ -2,6 +2,7 @@ from networkx import nx
 import pickle
 import numpy as np
 import queue
+from collections import defaultdict
 
 
 def BFS(graph, seed):
@@ -41,7 +42,7 @@ for iter in range(25):
             max_index, max_influenced = seed, ave_influenced
     candidates.remove(max_index)
     selected.append(max_index)
-    print('Greedy selected seed:', max_index)
+    print('Greedy selected seed', iter + 1, ':', max_index)
 
     for newG_index, newG in zip(range(len(newGs)), newGs):
         if max_index in newG.nodes:
@@ -49,4 +50,21 @@ for iter in range(25):
             newG.remove_nodes_from(influenced_nodes)
 
 print('Seed set:\n', selected)
-print('Average number of people influenced:\n', max_influenced)
+print('Average number of people influenced (including seeds):')
+influenced_nums = []
+for newG_index, newG in zip(range(len(newGs)), newGs):
+    influenced_nums.append(len(G.nodes) - len(newG.nodes))
+print(np.asarray(influenced_nums).mean())
+
+region_total_count = defaultdict(int)
+for node in G.nodes:
+    region_total_count[G.nodes[node]['region']] += 1
+region_selected_count = defaultdict(int)
+for newG_index, newG in zip(range(len(newGs)), newGs):
+    influenced_nodes = set(G.nodes).difference(set(newG.nodes))
+    for node in influenced_nodes:
+        region_selected_count[G.nodes[node]['region']] += 1 / len(newGs)
+for region, total_count in region_total_count.items():
+    selected_count = region_selected_count[region]
+    print(region, '\nsize:', total_count, '   influenced (including seeds):', selected_count,
+          '   proportion:', selected_count / total_count)

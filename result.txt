@@ -8,3 +8,44 @@ Greedy selected seed: 308
 Greedy selected seed: 82
 Greedy selected seed: 314
 Greedy selected seed: 265
+
+Fast task 1:
+Seed set:
+ [19, 264, 13, 319, 301, 263, 265, 17, 314, 82, 350, 65, 29, 268, 155, 239, 349, 47, 15, 288, 338, 26, 225, 296, 68]
+Average number of people influenced:
+ 1.442
+Seed set:
+ [19, 264, 13, 319, 301, 263, 265, 17, 314, 82, 350, 65, 29, 268, 155, 239, 349, 47, 15, 288, 338, 26, 225, 296, 68]
+Average number of people influenced:
+92.832
+
+Seed set:
+ [19, 264, 13, 319, 301, 263, 265, 17, 314, 82, 350, 65, 29, 268, 155, 239, 349, 47, 15, 288, 338, 26, 225, 296, 68]
+Average number of people influenced (including seeds):
+92.832
+acton 
+size: 11    influenced (including seeds): 0.2440000000000002    proportion: 0.0221818181818182
+lake_los_angeles 
+size: 18    influenced (including seeds): 2.6699999999999275    proportion: 0.14833333333332932
+southeast_antelope_valley 
+size: 8    influenced (including seeds): 0.04600000000000003    proportion: 0.005750000000000003
+northeast_antelope_valley 
+size: 7    influenced (including seeds): 0.08200000000000006    proportion: 0.011714285714285722
+desert_view_highlands 
+size: 3    influenced (including seeds): 0.16800000000000012    proportion: 0.05600000000000004
+palmdale 
+size: 198    influenced (including seeds): 43.89200000000768    proportion: 0.22167676767680644
+northwest_palmdale 
+size: 5    influenced (including seeds): 0.32200000000000023    proportion: 0.06440000000000004
+northwest_antelope_valley 
+size: 5    influenced (including seeds): 0    proportion: 0.0
+quartz_hill 
+size: 15    influenced (including seeds): 2.5799999999999375    proportion: 0.17199999999999582
+sun_village 
+size: 15    influenced (including seeds): 0.5780000000000004    proportion: 0.03853333333333336
+littlerock 
+size: 2    influenced (including seeds): 0.23000000000000018    proportion: 0.11500000000000009
+lancaster 
+size: 211    influenced (including seeds): 41.89800000000524    proportion: 0.19856872037917175
+leona_valley 
+size: 2    influenced (including seeds): 0.1220000000000001    proportion: 0.06100000000000005
