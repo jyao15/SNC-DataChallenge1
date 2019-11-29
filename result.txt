@@ -49,3 +49,36 @@ lancaster
 size: 211    influenced (including seeds): 41.89800000000524    proportion: 0.19856872037917175
 leona_valley 
 size: 2    influenced (including seeds): 0.1220000000000001    proportion: 0.06100000000000005
+
+
+Fast 1 fixed bug:
+Seed set:
+ [19, 264, 13, 319, 301, 308, 82, 314, 265, 29, 155, 350, 65, 239, 169, 349, 47, 453, 15, 439, 68, 225, 288, 109, 165]
+Average number of people influenced (including seeds):
+94.5
+sun_village 
+size: 15    influenced (including seeds): 0.43200000000000033    proportion: 0.028800000000000023
+northwest_palmdale 
+size: 5    influenced (including seeds): 0.32000000000000023    proportion: 0.06400000000000004
+palmdale 
+size: 198    influenced (including seeds): 42.74000000000627    proportion: 0.21585858585861753
+lake_los_angeles 
+size: 18    influenced (including seeds): 2.611999999999934    proportion: 0.14511111111110744
+northwest_antelope_valley 
+size: 5    influenced (including seeds): 0    proportion: 0.0
+northeast_antelope_valley 
+size: 7    influenced (including seeds): 0.08600000000000006    proportion: 0.012285714285714294
+littlerock 
+size: 2    influenced (including seeds): 0.21200000000000016    proportion: 0.10600000000000008
+desert_view_highlands 
+size: 3    influenced (including seeds): 0.16800000000000012    proportion: 0.05600000000000004
+lancaster 
+size: 211    influenced (including seeds): 44.95200000000897    proportion: 0.21304265402847855
+leona_valley 
+size: 2    influenced (including seeds): 0.1220000000000001    proportion: 0.06100000000000005
+quartz_hill 
+size: 15    influenced (including seeds): 2.5699999999999386    proportion: 0.17133333333332923
+acton 
+size: 11    influenced (including seeds): 0.25000000000000017    proportion: 0.022727272727272742
+southeast_antelope_valley 
+size: 8    influenced (including seeds): 0.03600000000000002    proportion: 0.004500000000000002
